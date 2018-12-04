@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "templates",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [ {
+      "source": "/bigben", "function": "bigben"
+    } ]
+  }
+}
